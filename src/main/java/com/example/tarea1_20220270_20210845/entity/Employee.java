@@ -28,7 +28,7 @@ public class Employee {
     @JoinColumn(name = "job_id")
     private Job job;
 
-    private BigDecimal salary;
+    private Double salary;
 
     @ManyToOne
     @JoinColumn(name = "manager_id")
